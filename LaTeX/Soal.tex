@@ -1,0 +1,187 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{enumitem}
+\title{SOAL UAS IF1220 MATEMATIKA DISKRIT}
+\author{Kelas 3E Kunugigaoka Junior High School}
+\date{Waktu: 150 menit}
+
+\begin{document}
+
+\noindent \textbf{Nama: Kalyca Nathania Benedicta Manullang} \\
+\noindent \textbf{NIM: 13524071}
+\vspace{0.3cm}
+
+\maketitle
+
+\begin{center}
+\large \textbf{BAGIAN A: SOAL MUDAH (EASY)}
+\end{center}
+
+\section*{Soal 1 Logika dan Penalaran}
+Seorang detektif sedang menyelidiki kasus pencurian di sebuah toko buku. Terdapat empat tersangka: Andi ($A$), Budi ($B$), Cici ($C$), dan Dodi ($D$). Dari hasil investigasi diperoleh fakta-fakta berikut:
+\begin{enumerate}
+    \item Jika Andi bersalah, maka Budi juga bersalah.
+    \item Jika Cici bersalah, maka Dodi juga bersalah.
+    \item Andi bersalah atau Cici bersalah.
+    \item Budi tidak bersalah.
+\end{enumerate}
+Dari fakta-fakta tersebut, tentukan apakah Dodi pasti bersalah? Gunakan hukum-hukum logika dan metode penarikan kesimpulan yang sahih untuk membuktikannya!
+
+\section*{Soal 2 Himpunan}
+Sebuah perusahaan teknologi mengadakan survei terhadap 120 karyawan mengenai penggunaan bahasa pemrograman. Data yang diperoleh sebagai berikut:
+\begin{itemize}
+    \item 65 karyawan menguasai Python
+    \item 50 karyawan menguasai Java
+    \item 45 karyawan menguasai C++
+    \item 25 karyawan menguasai Python dan Java
+    \item 20 karyawan menguasai Python dan C++
+    \item 15 karyawan menguasai Java dan C++
+    \item 10 karyawan menguasai ketiganya
+\end{itemize}
+\begin{enumerate}[label=(\alph*)]
+    \item Gambarkan diagram Venn dari data tersebut!
+    \item Berapa banyak karyawan yang tidak menguasai ketiga bahasa pemrograman tersebut?
+\end{enumerate}
+
+\section*{Soal 3 Relasi dan Fungsi}
+Diberikan himpunan $A = \{2, 3, 4, 5\}$ dan relasi $R$ pada $A$ didefinisikan sebagai:
+$$R = \{(2,2), (2,4), (3,3), (3,5), (4,4), (5,5)\}$$
+\begin{enumerate}[label=(\alph*)]
+    \item Apakah $R$ bersifat refleksif? Jelaskan!
+    \item Apakah $R$ bersifat setangkup (simetris)? Jelaskan!
+    \item Apakah $R$ bersifat menghantar (transitif)? Jelaskan!
+\end{enumerate}
+
+\section*{Soal 4 Teori Bilangan}
+Dengan menggunakan Algoritma Euclidean, tentukan:
+\begin{enumerate}[label=(\alph*)]
+    \item $\gcd(180, 72)$
+    \item $\operatorname{lcm}(180, 72)$
+\end{enumerate}
+
+\section*{Soal 5 Kombinatorika}
+Sebuah restoran cepat saji menawarkan menu paket dengan pilihan:
+\begin{itemize}
+    \item 3 jenis minuman
+    \item 5 jenis makanan utama
+    \item 4 jenis makanan penutup
+\end{itemize}
+Berapa banyak cara memilih:
+\begin{enumerate}[label=(\alph*)]
+    \item Satu minuman, satu makanan utama, dan satu makanan penutup?
+    \item Satu minuman \emph{atau} satu makanan utama (tidak keduanya)?
+\end{enumerate}
+
+\newpage
+\begin{center}
+\large \textbf{BAGIAN B: SOAL SEDANG (MEDIUM)}
+\end{center}
+
+\section*{Soal 6 Induksi Matematika}
+Buktikan dengan induksi matematika bahwa untuk setiap bilangan bulat positif $n$,
+$$\sum_{i=1}^{n} i \cdot 3^i = \frac{3}{4}\left((2n-1)3^n + 1\right)$$
+
+\section*{Soal 7 Aljabar Boolean}
+Sederhanakan ekspresi Boolean berikut menggunakan hukum-hukum aljabar Boolean:
+$$F(x,y,z) = x'y'z + x'yz + xy'z + xyz$$
+Tuliskan setiap langkah penyederhanaan beserta hukum yang digunakan!
+
+\section*{Soal 8 Barisan, Sumasi, Rekursi, dan Relasi Rekurens}
+Selesaikan relasi rekurens berikut:
+$$a_n = 3a_{n-1} - 2a_{n-2}$$
+dengan kondisi awal $a_0 = 1$ dan $a_1 = 4$.
+
+\section*{Soal 9 Graf}
+Perhatikan graf berikut dengan himpunan simpul $V = \{A, B, C, D, E\}$ dan himpunan sisi:
+$$E = \{(A,B), (A,C), (B,C), (B,D), (C,D), (C,E), (D,E), (A,E)\}$$
+\begin{enumerate}[label=(\alph*)]
+    \item Gambarkan graf tersebut!
+    \item Apakah graf tersebut memiliki lintasan Euler? Jelaskan!
+    \item Apakah graf tersebut memiliki sirkuit Hamilton? Jelaskan!
+\end{enumerate}
+
+\section*{Soal 10 Kompleksitas Algoritma}
+Diberikan potongan algoritma berikut:
+\begin{verbatim}
+for i := 1 to n do
+    for j := 1 to i do
+        for k := j to n do
+            x := x + 1
+        next k
+    next j
+next i
+\end{verbatim}
+\begin{enumerate}[label=(\alph*)]
+    \item Tentukan $T(n)$ sebagai fungsi dari $n$ (jumlah operasi $x := x + 1$)!
+    \item Nyatakan $T(n)$ dalam notasi Big-O!
+\end{enumerate}
+
+\newpage
+\begin{center}
+\large \textbf{BAGIAN C: SOAL SULIT (HARD)}
+\end{center}
+
+\section*{Soal 11 Pohon}
+Sebuah pohon biner penuh (setiap simpul internal memiliki tepat 2 anak) memiliki 50 simpul daun.
+\begin{enumerate}[label=(\alph*)]
+    \item Berapa jumlah simpul internal pada pohon tersebut?
+    \item Berapa jumlah total simpul pada pohon tersebut?
+    \item Jika pohon tersebut memiliki tinggi 6 (dengan akar berada pada level 0), berapa jumlah maksimum dan minimum simpul internal yang mungkin? Jelaskan!
+\end{enumerate}
+
+\section*{Soal 12 Relasi dan Fungsi}
+Diberikan fungsi $f: \mathbb{Z} \to \mathbb{Z}$ dengan $f(x) = 3x - 2$ dan $g: \mathbb{Z} \to \mathbb{Z}$ dengan $g(x) = x^2 + 1$.
+\begin{enumerate}[label=(\alph*)]
+    \item Tentukan $(f \circ g)(x)$ dan $(g \circ f)(x)$!
+    \item Apakah $f$ merupakan fungsi injektif? Jelaskan!
+    \item Apakah $f$ merupakan fungsi surjektif? Jelaskan!
+    \item Apakah $g$ merupakan fungsi bijektif? Jelaskan!
+\end{enumerate}
+
+\section*{Soal 13 Teori Bilangan}
+Gunakan Chinese Remainder Theorem (CRT) untuk menyelesaikan sistem kongruensi berikut:
+$$x \equiv 4 \pmod{5}, \qquad x \equiv 2 \pmod{6}, \qquad x \equiv 3 \pmod{7}$$
+Tentukan solusi $x$ terkecil yang memenuhi ketiga kongruensi tersebut!
+
+\section*{Soal 14 Kombinatorika}
+Sebuah kata sandi terdiri dari 10 karakter. Karakter dapat berupa huruf kapital (A-Z) atau angka (0-9). Setiap karakter boleh berulang. Namun, kata sandi harus memenuhi aturan berikut:
+\begin{itemize}
+    \item Minimal harus ada 3 huruf
+    \item Minimal harus ada 3 angka
+\end{itemize}
+Berapa banyak kata sandi yang mungkin?
+
+\section*{Soal 15 Anti-LLM $\boldsymbol{\bigstar}$}
+
+Sebuah mesin penjual otomatis menerima koin pecahan \textbf{Rp2.000} dan \textbf{Rp5.000} saja. Mesin tidak memberikan kembalian. Harga minuman yang tersedia adalah Rp12.000, Rp14.000, dan Rp17.000.
+
+Sistem logika mesin bekerja sebagai berikut:
+\begin{itemize}
+    \item Jika total uang yang dimasukkan sama dengan harga minuman, maka minuman keluar.
+    \item Jika total uang melebihi harga, minuman keluar (tanpa kembalian).
+    \item Jika total uang kurang dari harga, mesin terus menerima koin sampai cukup.
+\end{itemize}
+
+Terdapat 4 sensor pada mesin:
+\begin{itemize}
+    \item $P$: mendeteksi apakah ada koin Rp2.000 yang dimasukkan (bernilai 1 jika ada).
+    \item $Q$: mendeteksi apakah ada koin Rp5.000 yang dimasukkan (bernilai 1 jika ada).
+    \item $R$: mendeteksi apakah total uang $\ge$ Rp12.000 (bernilai 1 jika ya).
+    \item $S$: mendeteksi apakah total uang $\ge$ Rp14.000 (bernilai 1 jika ya).
+\end{itemize}
+
+Sistem akan mengeluarkan minuman ($M = 1$) jika dan hanya jika:
+\begin{center}
+\textbf{total uang $\ge$ Rp12.000} \qquad \textbf{DAN} \qquad \textbf{jika total = Rp10.000, maka $M=0$.}
+\end{center}
+\begin{enumerate}[label=(\alph*)]
+    \item Buatlah tabel kebenaran lengkap untuk semua kemungkinan kombinasi nilai kebenaran $P, Q, R, S$ dan tentukan nilai $M$ untuk setiap kombinasi!
+    \item Tentukan ekspresi Boolean bentuk \textbf{Sum-of-Products (SOP) lengkap} untuk $M$!
+    \item Sederhanakan ekspresi Boolean tersebut menggunakan \textbf{peta Karnaugh 4 variabel}! Tunjukkan pengelompokan yang Anda lakukan!
+    \item Gambarkan rangkaian gerbang logika dari ekspresi yang telah disederhanakan!
+\end{enumerate}
+
+\end{document}
